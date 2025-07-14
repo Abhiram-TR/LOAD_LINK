@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 import { fileURLToPath } from 'url'
 
 export default defineConfig({
+  base: '/loadr-speed-ship-main/',
   server: {
     host: "::",
     port: 8080,
